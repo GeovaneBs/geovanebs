@@ -1,98 +1,79 @@
 # 👋 Olá, eu sou o Geovane!
 
-## 💼 Sobre mim
-
-Sou um **Analista DevOps** com forte background em **QA e automação de testes**. Iniciei minha jornada garantindo a qualidade de software e evoluí para o mundo DevOps, onde hoje atuo otimizando pipelines, implementando infraestrutura como código e criando ambientes escaláveis e resilientes — tanto em cloud quanto on-premise.
-
-Tenho experiência prática com ferramentas modernas como **Docker**, **Kubernetes (AKS, K3s)**, **Azure Pipelines**, **Helm** e **Cypress**, sempre focando em automação, observabilidade e entrega contínua.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-GeovaneBrandao-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/geovane-brandao-silva/)
+[![E-mail](https://img.shields.io/badge/E--mail-geovaneb.gb@hotmail.com-red?style=flat&logo=gmail)](mailto:geovaneb.gb@hotmail.com)
 
 ---
 
-## ⚙️ Habilidades Técnicas
+## 💼 Sobre Mim
 
-### 🧩 DevOps & Cloud
-- Infraestrutura como código com Helm e manifestos Kubernetes
-- Pipelines CI/CD otimizados com Azure Pipelines (YAML)
-- Ambientes híbridos (Azure + on-premise)
-- Provisionamento de recursos com scripts reutilizáveis
+Sou um **Analista DevOps** com experiência em **QA e automação de testes**. Iniciei minha carreira na área de qualidade e, atualmente, dedico-me ao mundo DevOps, auxiliando equipes na criação de pipelines eficientes, ambientes robustos e soluções escaláveis. Trabalho com ferramentas modernas, como **Docker**, **Azure Kubernetes Service (AKS)**, **Azure Pipelines** e **Cypress**.
 
-### 🧪 Testes & Qualidade
-- Automação de testes ponta a ponta com Cypress
-- Validação de readiness/liveness probes antes e após deploy
-- Integração de testes automatizados no fluxo de CI/CD
+---
 
-### 📊 Observabilidade & Monitoramento
-- Dashboards interativos no Grafana com autenticação via proxy reverso
-- Métricas de pods, nodes e containers com Prometheus
-- Análises em tempo real via alertas customizados e painéis integrados
+## 🛠️ Habilidades Técnicas
 
-### 🖥️ Programação & Desenvolvimento
-- APIs em **.NET (C#)** com endpoints health/readiness para automações
-- Frontends com **React** integrados a clusters Kubernetes
-- Scripts personalizados em PowerShell, Bash e YAML
-
-### 🛠️ Ferramentas e Tecnologias
-- Docker, Kubernetes (AKS/K3s), Helm, Git
-- Azure Pipelines, Azure Application Gateway, Azurite
-- RabbitMQ, Redis, Elasticsearch, Kibana, Postfix (SMTP)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat&logo=cypress&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
 
 ---
 
 ## 🚀 Projetos em Destaque
 
-### 🔁 Automação de Deploy com Rollback (Azure Pipelines)
-- Criação de **template YAML reutilizável** com parâmetros para múltiplos repositórios
-- Deploy de imagens Docker no AKS com validações automáticas de readiness
-- Rollback automático com lógica baseada em falhas de readiness probes
-- Publicação e versionamento automático de artefatos Docker via Azure Container Registry (ACR)
+### 🔧 CI/CD Reutilizável com Rollback Automático
+- **Ferramentas:** Azure Pipelines, Helm, YAML
+- **Descrição:** Desenvolvimento de templates reutilizáveis para múltiplos repositórios com parâmetros dinâmicos. Implementação de validações automáticas e rollback configurado para falhas de readiness.
 
-### 📈 Dashboard Grafana com Proxy Reverso
-- Proxy reverso com **Nginx** publicado via **Application Gateway** do Azure
-- Permissões por IP e autenticação para ambientes internos
-- Dashboards customizados para métricas de recursos AKS e pods por namespace
-- Integração com Prometheus para coleta de métricas de containers
+### 📊 Dashboards de Observabilidade (Grafana + AKS)
+- **Desafio:** Monitorar recursos por namespace em ambiente AKS
+- **Stack:** Prometheus, Grafana, AKS, RBAC personalizado
+- **Solução:** Acesso restrito via Application Gateway com NGINX como proxy reverso econômico.
 
-### ☁️ Deploy do Azurite no Kubernetes
-- Emulação do Azure Storage no ambiente de desenvolvimento local com **Azurite**
-- Helm chart customizado para configuração de múltiplas contas e containers
-- Publicação segura via Ingress no cluster K3s
+### 📦 Deploy do Azurite no Kubernetes
+- **Descrição:** Deploy otimizado de emululador de Azure Storage via Helm, ideal para ambientes de desenvolvimento internos. Configuração de Ingress customizado e volumes persistentes.
 
-### 🌍 Infraestrutura Escalável e Híbrida
-- Criação de ambiente on-premises com K3s espelhando produção cloud (AKS)
-- Deploy de serviços como RabbitMQ, Redis e Elasticsearch em ambas arquiteturas
-- Estratégia de pipelines unificada para ambientes distintos com validações automáticas
+### 🧠 Infraestrutura Híbrida
+- **Ambientes:** AKS (cloud) e K3s (on-premise)
+- **Descrição:** Pipelines unificados para publicação de APIs, workers e serviços como RabbitMQ e Elasticsearch, com estratégias de versionamento Git otimizadas.
 
-### 🔎 Visualização de Imagens e Deployments no AKS
-- Criação de API em .NET para leitura dos deployments e imagens Docker do AKS
-- Frontend em React com autenticação para exibição e filtro dos dados
-- Utilização de ServiceAccount com RBAC mínimo para leitura segura dos deployments
+### 🌍 Frontend + API Observável
+- **Descrição:** Desenvolvimento de API em .NET para leitura de deployments e imagens Docker no AKS, com frontend em React consumindo dados em tempo real para exibição dinâmica dos clusters.
 
 ---
 
-## 📚 Em constante evolução
+## 📚 Planos de Estudo
 
-Atualmente focado em:
-
-- Aprimorar práticas de infraestrutura e DevOps escalável  
-- Explorar novas soluções de automação e integração  
-- Praticar inglês técnico para atuar em projetos globais  
-
----
-
-## 🙌 Um pouco mais sobre mim
-
-- Curioso por natureza e apaixonado por **automação, infraestrutura e boas práticas**
-- Gosto de entender como as coisas funcionam e buscar formas de melhorar o que já existe
-- Acredito que conhecimento só faz sentido quando é **compartilhado**
+Atualmente, estou me aprofundando em:
+- Arquiteturas resilientes em nuvem
+- Integração de pipelines com automação de qualidade
+- Inglês técnico para colaboração global
 
 ---
 
-## 🌐 Vamos nos conectar?
+## 📌 Repositórios em Destaque
 
-- [LinkedIn](https://www.linkedin.com/in/geovane-brandao-silva/)  
+| Projeto                  | Descrição                                           | Tecnologias            |
+|--------------------------|-----------------------------------------------------|------------------------|
+| `azure-pipelines-template` | Template CI/CD com rollback automático             | YAML, Azure Pipelines  |
+| `grafana-aks-dashboard`    | Painel Grafana integrado ao AKS                    | Prometheus, Grafana    |
+| `azurite-on-k8s`           | Deploy local de Azurite via Helm                   | Helm, K3s              |
+| `cluster-visual-api`       | API + Frontend para exibição de clusters           | .NET, React            |
+
+---
+
+## 🌐 Conecte-se Comigo
+
+Estou sempre aberto a novas conexões e colaborações. Sinta-se à vontade para entrar em contato:
+
+- [LinkedIn](https://www.linkedin.com/in/geovane-brandao-silva/)
 - [E-mail](mailto:geovaneb.gb@hotmail.com)
 
 ---
 
-Sinta-se à vontade para explorar meus repositórios, deixar um ⭐️ ou me chamar para trocar uma ideia.  
-**Bora construir soluções melhores, mais rápidas e inteligentes!** 🚀
+> “Automação é o novo café: se não tiver, a produtividade desce.” ☕️
